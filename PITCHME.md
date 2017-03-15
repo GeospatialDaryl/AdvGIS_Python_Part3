@@ -132,10 +132,9 @@ False
 ```
 
 #HSLIDE
-## LPT: Making a Unique-Element List
+## LPT: Unique-Element List
 ### How many non-unique elemens?
 ```
->>> listFromProces = [343,646,26,5775,646,984,34]
 >>> listFromProcess = [343, 646, 26, 5775, 646, 984, 34]
 >>> numAll = len(listFromProcess)
 >>> listUnique = list(set(listFromProcess))
@@ -148,9 +147,9 @@ False
 ##  Objects and Classes
 All Python 'things' are **instances** of an object.
 A **Class** is a blueprint for a data model.  It defines a 'thing' that has:
-- initilization (`__init__`) method
-- additional methods (functions bound to the object)
-- and attributes ("slots" that hold data, and are addressable by name.
+* usually has an initilization (`__init__`) method
+* additional methods (functions bound to the object)
+* and attributes ("slots" that hold data, and are addressable by name.
 
 #HSLIDE
 ## Classes and Objects
@@ -162,12 +161,12 @@ or it can have variables shared by all instances of that class.
 
 #HSLIDE
 ## Class & Object Nomenclature
-Class Element | Translation
+|Class Element | Translation |
 -----------------------------------------------
-class 'variable'  | class attribute
-class 'function'    | class 'function'
-instance 'variable' | an object's unique attributes
-instance 'function' | an object's method, almost always common to all instances.
+|class 'variable'  | class attribute |
+|class 'function'    | class 'function'|
+|instance 'variable' | an object's unique attributes|
+|instance 'function' | an object's method, almost always common to all instances.|
 
 #HSLIDE
 ## Why Classes?
