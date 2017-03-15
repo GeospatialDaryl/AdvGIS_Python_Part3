@@ -9,9 +9,11 @@
 
 #HSLIDE
 ## Major Language Elements
-* Tuples, Dictionaries, Sets, and Iterables
+* Tuples
+* Dictionaries
+* Sets
 * Classes
-* Modules and Reusable code
+
 
 #HSLIDE
 ## Tuples, Dictionaries, Sets and Iterables
@@ -317,8 +319,10 @@ Class Dog(Animal):
 ## Name Mangling
 In a nutshell, in Java we can 'lock down' methods and attributes so they are *unavailable* outside the class.
 Python doesn't support that, we have a convention.  If something is **not** to be messed with outside of the class, use an underscore up front.
+
 `self._numWidgets`
-This means that 'the object manages this attribute, don't mess with it.
+
+This means that 'the object manages this attribute, don't mess with it.'
 
 #HSLIDE
 ## The Object as a Bucket
