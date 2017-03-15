@@ -148,7 +148,7 @@ False
 ##  Objects and Classes
 All Python 'things' are **instances** of an object.
 A **Class** is a blueprint for a data model.  It defines a 'thing' that has:
-- initilization (```__init__```) method
+- initilization (`__init__`) method
 - additional methods (functions bound to the object)
 - and attributes ("slots" that hold data, and are addressable by name.
 
@@ -162,21 +162,26 @@ or it can have variables shared by all instances of that class.
 
 #HSLIDE
 ## Class & Object Nomenclature
-class 'variable'    == class attribute
-class 'function'    == class 'function'
-instance 'variable' == an object's unique attributes
-instance 'function' == an object's method, almost always common to all instances.
+Class Element | Translation
+-----------------------------------------------
+class 'variable'  | class attribute
+class 'function'    | class 'function'
+instance 'variable' | an object's unique attributes
+instance 'function' | an object's method, almost always common to all instances.
 
 #HSLIDE
 ## Why Classes?
 Classes are blueprints, or ***data models***
 They allow us to organize code in a way that makes logical sense.
 Classes are ***awesomesauce***.
+
 The classic tests are 'is a' and 'has a'.
+
 'is a ' -->  class instance
+
 'has a ' --> class attribute
 
-#SLIDE
+#HSLIDE
 ## UML (Universal Markup Language)
 There is a standard way of drawing ('marking up') classes.
 This should be awesome, a way of using the graphic tools to model information and then generate code.
